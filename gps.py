@@ -7,7 +7,7 @@ def get_longitude(in_long, hemisphere):
 	else:
 		index_decimal = (-1) * (len(in_long) - in_long.index(".")) #getting the negative index of '.' decimal point
   
-    #splitting the entry using the negative index found earlier
+   		#splitting the entry using the negative index found earlier
 		minute = int(in_long[index_decimal - 2 : index_decimal])
 		degree = int(in_long[: index_decimal -2 ])
 		seconds = round(float(in_long[index_decimal:])*60)
