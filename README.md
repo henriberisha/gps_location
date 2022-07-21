@@ -3,6 +3,7 @@ This python script retrieves the GPS location from a USB GPS receiver
 
 USB GPS receiver: GLOBAL SAT BU-353S4 Cable GPS with USB interface (SiRF Star IV)
 https://www.globalsat.com.tw/en/a4-10593/BU-353S4.html
+Note: It may work with other GPS USB receivers as well
 
 The script works for LINUX OS
 To make it work for WINDOWS, change port argument to a serial COM port
